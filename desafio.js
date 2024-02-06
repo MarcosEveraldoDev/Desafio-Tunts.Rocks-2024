@@ -32,7 +32,7 @@ async function main() {
   const values = response.data.values;
 
   // Process student data
-  for (let i = 2; i < values.length; i++) {
+  for (let i = 3; i < values.length; i++) {
     const grade1 = parseFloat(values[i][3]);
     const grade2 = parseFloat(values[i][4]);
     const grade3 = parseFloat(values[i][5]);
